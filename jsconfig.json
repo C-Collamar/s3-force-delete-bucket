@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "#lib/*.js": [
+        "./lib/*.js"
+      ]
+    },
+    "checkJs": true,
+    "module": "NodeNext",
+    "target": "ESNext",
+    "moduleResolution": "nodenext",
+    "strict": true
+  },
+  "exclude": [
+    "*.example.js"
+  ]
+}
